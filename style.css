@@ -1,0 +1,341 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    scroll-behavior: smooth;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+nav {
+    background-color: #b2744c;
+
+    img {
+        width: 120px;
+    }
+
+    .navbar-toggler {
+        box-shadow: none !important;
+        border: solid 4px black;
+        background: white;
+
+        span {
+            color: black;
+            font-size: 25px;
+        }
+    }
+
+    .list2 {
+        button {
+            font-weight: 700;
+            background: black;
+            color: white;
+            border: 3px white solid;
+        }
+
+        button:hover {
+            background: white;
+            color: black !important;
+            border: 3px black solid;
+        }
+    }
+
+    .list1 {
+
+        li {
+            transition: 0.3s;
+            font-weight: 700;
+            margin-bottom: 10px;
+
+            a {
+                color: black;
+            }
+        }
+
+        .nav-item .nav-link:hover {
+            background: #f7f5f2;
+            border-radius: 5px;
+        }
+
+    }
+}
+
+.home {
+    height: calc(100vh - 62px);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bc3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+
+    .container {
+        padding-top: 210px;
+
+        h1 {
+            font-size: 50px;
+        }
+
+        button {
+            width: 150px;
+            height: 36px;
+            border: none;
+            transition: 0.5s ease;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #b2744c !important;
+            color: white;
+        }
+    }
+}
+
+.about {
+
+    background: #f7f5f2;
+
+    span {
+        color: #b2744c;
+    }
+
+    button {
+        border: 2px solid #b2744c;
+        background: white;
+        color: #b2744c;
+        width: 200px;
+        height: 36px;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: 0.5s;
+
+        &:hover {
+            background: #b2744c;
+            color: white;
+        }
+    }
+
+    .card-animation {
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .card-animation:hover {
+        transform: translateY(-10px);
+    }
+}
+
+.menu {
+    background: #f7f5f2;
+
+    h1 {
+        color: #b2744c;
+        border-bottom: 3px solid #b2744c;
+    }
+
+    .card {
+        border: none !important;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .card-body {
+        .fa-cart-plus {
+            float: right;
+            cursor: pointer;
+        }
+    }
+
+    p,
+    h3,
+    i {
+        color: #b2744c;
+    }
+}
+
+.product {
+    background: #f7f5f2;
+
+    h1 {
+        color: #b2744c;
+        border-bottom: 3px solid #b2744c;
+    }
+
+    .card {
+        border: none !important;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .card-body {
+        .fa-cart-plus {
+            float: right;
+            cursor: pointer;
+        }
+    }
+
+    p,
+    h3,
+    i {
+        color: #b2744c;
+    }
+}
+
+.gallary {
+    padding-bottom: 100px;
+    background: #f7f5f2;
+
+    span {
+        color: #b2744c;
+    }
+
+    .card {
+        border: none !important;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+}
+
+.contact {
+    background-color: #f7f5f2;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+
+    .container {
+        border-radius: 10px;
+        width: 100%;
+        max-height: 130vh;
+        background-image: linear-gradient(to right, white 80%, #b2744c 20%);
+        padding: 100px 50px;
+
+        span {
+            color: #b2744c;
+        }
+
+        .col-lg-7 {
+
+            p {
+                width: 85%;
+            }
+
+            form {
+                input {
+                    border: none;
+                    width: 85%;
+                    outline: none;
+                    border-bottom: 2px black solid;
+                    margin-bottom: 20px;
+                }
+
+                button {
+                    width: 200px;
+                    height: 36px;
+                    border: none;
+                    background: #b2744c;
+                    margin-top: 5px;
+                    margin-bottom: 15px;
+                    cursor: pointer;
+                    transition: 0.5s;
+                    &:hover {
+                        background: white;
+                        border: 3px solid #b2744c;
+                        color: #b2744c !important;
+                    }
+                }
+            }
+
+        }
+
+        .col-lg-5 {
+            background-color: black;
+            border-radius: 10px;
+            
+        }
+
+    }
+
+}
+
+.blog {
+
+    background: #f7f5f2;
+
+    span {
+        color: #b2744c;
+    }
+
+    .card {
+        border: none !important;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    h6 {
+        color: #b2744c;
+    }
+
+    button {
+        width: 200px;
+        height: 36px;
+        border: none;
+        color: white;
+        background: #b2744c;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover {
+            background: white;
+            border: 3px solid #b2744c;
+
+            color: #b2744c;
+        }
+    }
+
+}
+
+.footer {
+    background-color: #b2744c;
+    height: 100%;
+
+    img {
+        width: 150px;
+        border-radius: 10px;
+    }
+
+
+    .icon i {
+        font-size: 30px;
+        color: white;
+        padding: 2px;
+        margin: 4px;
+        border: 6px black solid;
+        border-radius: 10px;
+        background: black;
+        transition: 0.5s;
+
+        &:hover {
+            background: white;
+            color: black;
+            border: 6px white solid;
+        }
+    }
+
+}
+
+.arrow {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+
+    img {
+        width: 50px;
+        position: sticky;
+        top: 200px;
+    }
+
+}
